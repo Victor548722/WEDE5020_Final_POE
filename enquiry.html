@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry | 1 BAO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="enquiry-page">
+    <header>
+        <li><a href="index.html">Home</a></li> <!-- Link to Home -->
+        <li><a href="about.html">About</a></li> <!-- Link to About Us -->
+        <li><a href="menu.html">Services</a></li> <!-- Link to Menu/Services -->
+        <li><a href="promotions.html">Promotions</a></li> <!-- Link to Promotions -->
+        <li><a href="enquiry.html">Enquiry</a></li> <!-- Link to Enquiry -->
+        <li><a href="contact.html">Contact</a></li> <!-- Link to Contact Us -->
+        </ul>
+        </nav>
+    </header>
+    <section class="enquiry-container">
+        <h1 class="page-heading">Enquiry</h1>
+        <form class="form-card" id="enquiry-form"> <!-- Form element with target ID for JavaScript handling -->
+            <label for="firstName">First Name *</label>
+            <input type="text" id="firstName" name="name" required placeholder="First Name">
+            <!-- Text input for First Name -->
+            </div>
+            <div><!-- Form control field wrapper -->
+                <label for="surname">Surname *</label> <!-- Label for Surname -->
+                <input type="text" id="surname" name="surname" required placeholder="Surname">
+                <!-- Text input for Surname -->
+            </div>
+
+            <div><!-- Form control field wrapper -->
+                <label for="email">Email *</label> <!-- Label for Email -->
+                <input type="email" id="email" name="email" required placeholder="Email Address">
+                <!-- Email input with format checking -->
+            </div>
+            <div>
+                <label for="phone">Phone Number</label> <!-- Label for Phone Number -->
+                <input type="tel" id="phone" name="phone" placeholder="+27 83 505 4445">
+                <!-- Phone input matching layout format -->
+            </div>
+            <div>
+                <label for="enquiryType">Enquiry Type *</label> <!-- Label for dropdown selection -->
+                <select id="enquiryType" name="enquiryType"> <!-- Dropdown select element -->
+                    <option value="products">Menu Products & Pricing</option> <!-- Product option -->
+                    <option value="catering">Catering Services</option> <!-- Catering option -->
+                    <option value="events">Private Events</option> <!-- Private events option -->
+                </select> <!-- Closes dropdown element -->
+            </div>
+            <div>
+                <label for="message">Message Details</label> <!-- Label for message textarea -->
+                <textarea id="message" name="message" rows="4" placeholder="Specify your requirements..."></textarea>
+                <!-- Multi-line text area -->
+            </div>
+            <br>
+            <button type="submit"
+                class="btn-submit">Submit</button><!-- Submit button styled in red & black pill design -->
+
+        </form>
+    </section>
+    <footer>
+        <p>Copyright &copy; 2026 1 BAO | 18 Newton St, Newton Park, Gqeberha</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
