@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://Victor548722.github.io/WEDE5020_Final_POE/sitemap.xml
