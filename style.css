@@ -351,3 +351,11 @@ body.enquiry-page .btn-submit {
 body.enquiry-page .btn-submit:hover {
     background-color: #800000; /* Darker blood red on mouse hover */
 }
+body.enquiry-page header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    }
+    body.enquiry-page header nav a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+        }
