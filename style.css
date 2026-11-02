@@ -300,3 +300,54 @@ nav a+a::before {
         text-align: center;
     }
 }
+body.enquiry-page .page-heading {
+    color: #b30000;            /* Deep professional red color for enquiry page heading */
+    font-size: 2rem;           /* Sets prominent heading font size */
+    margin-bottom: 20px;       /* Spacing below heading */
+}
+body.enquiry-page .enquiry-container {
+    padding: 20px;             /* Inner padding around enquiry section */
+    max-width: 800px;          /* Maximum width boundary for layout balance */
+    margin: 0 auto;            /* Centers container horizontally */
+}
+body.enquiry-page .form-card div {
+    margin-bottom: 15px;       /* Vertical spacing between form input groups */
+}
+body.enquiry-page .form-card label {
+    display: block;            /* Forces label onto its own line above input */
+    font-weight: bold;         /* Bold label text */
+    color: #111111;            /* Dark text color for clear visibility */
+    margin-bottom: 5px;        /* Space between label and input control */
+}
+body.enquiry-page .form-card input, 
+body.enquiry-page .form-card select, 
+body.enquiry-page .form-card textarea {
+    width: 100%;               /* Full width sizing for form controls */
+    padding: 10px;             /* Inner typing space padding */
+    border: 1px solid #444444; /* Dark charcoal grey border outline */
+    border-radius: 4px;        /* Slightly rounded corners */
+    box-sizing: border-box;    /* Includes padding inside width calculations */
+    font-size: 1rem;           /* Standard readable font size */
+    background-color: #fafafa; /* Subtle light background tint */
+}
+body.enquiry-page .form-card input:focus, 
+body.enquiry-page .form-card select:focus, 
+body.enquiry-page .form-card textarea:focus {
+    outline: none;             /* Removes default browser highlight ring */
+    border-color: #b30000;     /* Highlights border in vibrant red on focus */
+    box-shadow: 0 0 5px rgba(179, 0, 0, 0.3); /* Soft red focus glow shadow */
+}
+body.enquiry-page .btn-submit {
+    background-color: #b30000; /* Vibrant red button background */
+    color: #ffffff;            /* White button text */
+    border: none;              /* Removes default border */
+    padding: 10px 25px;        /* Button padding size */
+    border-radius: 20px;       /* Pill shape rounding matching your layout */
+    font-size: 1rem;           /* Standard button font size */
+    font-weight: bold;         /* Bold button text */
+    cursor: pointer;           /* Pointer cursor on mouse hover */
+    transition: background-color 0.2s ease; /* Smooth hover animation */
+}
+body.enquiry-page .btn-submit:hover {
+    background-color: #800000; /* Darker blood red on mouse hover */
+}
