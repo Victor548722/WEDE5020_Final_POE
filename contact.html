@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | 1 BAO</title>
     <!-- first we are going to link our stylesheet from css before starting with our css code-->
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <!-- Utility Header and navigations -->
     <header>
-        
+
         <div>
             <p>Call: +27 72 771 6461 | Order / Inquiries | 18 Newton St, Gqeberha</p>
         </div>
@@ -33,7 +33,7 @@
     <section>
         <h1>Contact Us Page</h1>
     </section>
-    <!-- not that our map is static and is not a working map yet, it is just there to give an idea -->
+
     <!-- Location Details  and map Split Section -->
     <section>
         <div>
@@ -48,19 +48,84 @@
         <!--These images will be able to display on the website as the image names are the same & in the same file directory as our page templates -->
         <div>
             <h3>Location</h3>
-            <img src="images/map-placeholder.png" alt="Map View 18 Newton St Gqeberha" width="350">
-            <br>
-            <a href="https://maps.google.com" target="_blank"><button type="button">Get Driving Directions</button></a>
+            <a
+                href="https://www.google.com/maps/place/18+Newton+St,+Newton+Park,+Gqeberha,+6055/@-33.9489593,25.5676626,17z/data=!3m1!4b1!4m6!3m5!1s0x1e7ad3d5c598b53d:0x333e16f45ce12dce!8m2!3d-33.9489593!4d25.5702375!16s%2Fg%2F11cs7vlhh5?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D">
+                <img src="images/map-placeholder.png" alt="Map View 18 Newton St Gqeberha" width="350">
+                <br>
+                <a href="https://maps.google.com/?q=18+Newton+St,+Newton+Park,+Gqeberha" target="_blank">
+                    <button type="button">Get Driving Directions</button>
+                </a>
         </div>
     </section>
 
     <hr>
 
+    </section>
+    <div>
+        <h2>SEND US A MESSAGE</h2><!-- Form section heading -->
+        <form id="contactForm"><!-- Form element targeted by script.js for mailto: compilation -->
+            <div>
+                <label for="contactFirstName">First Name *</label> <!-- Required First Name label -->
+                <br>
+                <input type="text" id="contactFirstName" name="firstName" required placeholder="Your first name">
+                <!-- First name text input -->
+            </div>
+            <br>
+            <div>
+                <!-- Field wrapper for First Name -->
+                <label for="contactSurname">Surname *</label> <!-- Required Surname label -->
+                <br>
+                <!-- Field wrapper for Surname -->
+                <input type="text" id="contactSurname" name="surname" required placeholder="Your surname">
+                <!-- Surname text input -->
+                <div>
+                    <br>
+
+                    <div>
+                        <!-- Field wrapper for Email -->
+                        <label for="contactEmail">Email *</label> <!-- Required Email label -->
+                        <br>
+                        <input type="email" id="contactEmail" name="email" required placeholder="Your email address">
+                        <!-- Email input with format checking -->
+                    </div>
+                    <br>
+                    <div>
+                        <!-- Field wrapper for Message Type -->
+                        <label for="messageType">Type of Message:</label> <!-- Dropdown select label -->
+                        <br>
+                        <select id="messageType" name="messageType"> <!-- Dropdown select control -->
+                            <option value="General Query">General Query</option> <!-- Option: General Query -->
+                            <option value="Feedback">Feedback</option> <!-- Option: Feedback -->
+                            <option value="Complaint">Complaint</option> <!-- Option: Complaint -->
+                        </select> <!-- Closes dropdown select control -->
+                    </div>
+                    <br>
+                    <div>
+                        <!-- Field wrapper for Message Body -->
+                        <label for="contactMessage">Full Message *</label> <!-- Textarea label -->
+                        <br>
+                        <textarea id="contactMessage" name="message" rows="4" required
+                            placeholder="Write your message here..."></textarea> <!-- Textarea control -->
+                    </div>
+                    <br>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                    <!-- Submit button to launch email client compilation -->
+        </form>
+    </div>
+    </selection>
+
+
+    <hr>
+
+
     <!-- Footer -->
     <footer>
         <p>Footer : Copyright &copy; 2026 1 BAO | 18 Newton St, Newton Park, Gqeberha</p>
     </footer>
-
+    <!-- ADDED: External script link before body close so JavaScript logic operates on form -->
+    <script src="script.js"></script>
 </body>
+
+
 
 </html>
