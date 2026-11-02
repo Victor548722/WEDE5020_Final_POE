@@ -25,4 +25,42 @@
 * Used AI to assist with the hero carousel and screen scaling for mobile and tablet view.
 
 
+# WEB DEV POE
+##  Key Features
+
+* **Interactive Navigation & Layout:** Responsive multi-page web application featuring standardized headers, footers, and accessible navigation across desktop and mobile screens.
+* **Dynamic Menu Search & Filtering:** Live JavaScript search bar and category buttons to filter menu items instantaneously.
+* **Modal Lightbox Gallery:** Pop-up image lightboxes for high-resolution item views and dish details.
+* **Interactive Enquiry Calculator:** Custom form with automated cost and turnaround time calculation for private event orders.
+* **Client-Side Form Validation:** Dynamic inline error messages and strict field validation preventing empty submissions.
+* **Automated Email Action:** Direct `mailto:` integration compiling validated form inputs into structured email submissions.
+
+---
+
+##  Technical SEO Setup
+
+* **Custom Meta Descriptions:** Unique, targeted `<meta name="description">` tags included in the `<head>` of all 6 HTML pages.
+* **XML Sitemap (`sitemap.xml`):** Fully structured XML site map detailing page hierarchy, priorities, and update timestamps.
+* **Search Crawlers (`robots.txt`):** Structured configuration allowing indexation across all user agents while referencing the live sitemap location.
+
+---
+
+## Tech Stack
+* **HTML5:** Semantic site structure and accessibility.
+* **CSS3:** Custom responsive layout design, styling resets, flexbox/grid alignment, and visual assets.
+* **JavaScript (ES6):** DOM manipulation, event handling, filter algorithms, and form validation.
+* **Git & GitHub Pages:** Version control management and production hosting.
+
+---
+
+##  Reflection & Evaluation
+* **Hero Carousel & Screen Scaling:** Implemented interactive carousel components and resolved layout scaling challenges across varying device viewports through responsive media queries and grid rules.
+* **Modular Code Structure:** Emphasized planning and modular code design early in the workflow to streamline cross-device debugging and component resets.
+
+---
+
+##  Author
+* **Student Name:** [Victor]
+* **Module:** WEDE5020 - Web Development
+
 
